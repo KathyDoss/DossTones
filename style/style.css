@@ -44,7 +44,8 @@ text-align: center;
   }
 
 .dropdown-content a {
-  color: black;
+  background-color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -118,6 +119,12 @@ margin-left: auto;
 margin-right:auto;
 width: 10%;
 padding: 5 0 5 0;
+}
+
+#small-player {
+width:140px;
+height: 20px;
+background-color: black;
 }
 
  
