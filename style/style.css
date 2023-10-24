@@ -9,7 +9,7 @@ text-align: center;
 
 
   .ribbon{
-  background-color: #dd1818;
+  background-color: #e60000;
   border-style: solid;
   border-color: black;
   border-width; 15px;
@@ -17,7 +17,7 @@ text-align: center;
  
  
 #dropbtn {
-  background-color: #dd1818;
+  background-color: #e60000;
   color: black;
   padding: 15px;
   font-size: 16px;
@@ -59,6 +59,11 @@ text-align: center;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.audio-description {
+font-size: 12px;
+font-style: italic;
+}
+
 
 .menu {
   background-color: transparent;
