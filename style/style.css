@@ -1,0 +1,136 @@
+body {
+  background-color: #f8F8F8;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+h1 {
+text-align: center;
+}
+
+
+  .ribbon{
+  background-color: #dd1818;
+  border-style: solid;
+  border-color: black;
+  border-width; 15px;
+}
+ 
+ 
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+ 
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  }
+ 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 10;
+  z-index: 1;
+  }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #c2bdbc}
+
+.dropdown:hover .dropbtn {
+  background-color: #c22d08;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a.menu {
+  background-color: transparent;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+a:hover {
+  background-color: gray;
+}
+
+
+.playerpage {
+  display: inline-block;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 25px;
+}
+
+
+    
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom:5px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 48%;
+  padding: 5px;
+  font-size: 18px;
+ }
+
+.leftcolumn {
+  float: left;
+  width: 48%;
+  padding-bottom: 10px;
+}
+.player {
+height:300;
+width:200;
+padding: 25px 5px 25px 5px;
+}
+
+.socialmedia {
+display: block;
+background-color: transparent;
+margin-left: auto;
+margin-right:auto;
+width: 10%;
+padding: 5 0 5 0;
+}
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
