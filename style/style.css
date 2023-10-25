@@ -3,7 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   }
 
-h1 {
+.heading {
 text-align: center;
 }
 
@@ -19,7 +19,7 @@ text-align: center;
 #dropbtn {
   background-color: #e60000;
   color: black;
-  padding: 15px;
+  padding: 10px;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -64,22 +64,8 @@ font-size: 12px;
 font-style: italic;
 }
 
-
-.menu {
-  background-color: transparent;
-  font-weight: bold;
-  color: black;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  display: inline-block;
-  border: none;
-  cursor: pointer;
-}
 a:hover {
   background-color: gray;
-
 }
 
 
@@ -129,7 +115,7 @@ padding: 5 0 5 0;
 
 #small-player {
 width:140px;
-height: 20px;
+height: 25px;
 background-color: black;
 }
 
