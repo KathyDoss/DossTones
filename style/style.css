@@ -75,9 +75,9 @@ a:hover {
 
 .playerpage {
   display: inline-block;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 25px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 20px;
 }
 
 
@@ -90,23 +90,27 @@ a:hover {
   padding-bottom:5px;
 }
 
-.rightcolumn {
-  float: right;
-  width: 48%;
+.playertxt {
   padding: 5px;
-  font-size: 18px;
+  font-size: 1.3em;
   font-color: black;
+  margin-right: 10%;
  }
 
 .leftcolumn {
   float: left;
-  width: 48%;
+  height: auto;
+  width: 48vw;
+  padding-right: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
-.player {
+.playerimg {
 height:300;
 width:200;
-padding: 25px 5px 25px 5px;
+margins-left: 20%;
+float: left;
+padding: 25 25 5 25 ;
 }
 
 .socialmedia {
