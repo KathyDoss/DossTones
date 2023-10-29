@@ -73,44 +73,32 @@ a:hover {
 }
 
 
-.playerpage {
-  display: inline-block;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 20px;
-}
-
-
-    
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding-bottom:5px;
-}
+  }
 
 .playertxt {
-  padding: 5px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-color: black;
-  margin-right: 10%;
- }
+  }
 
 .leftcolumn {
   float: left;
   height: auto;
   width: 48vw;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
+  padding: 10 10 10 10;
+  }
+
 .playerimg {
 height:300;
 width:200;
-margins-left: 20%;
+margins-left: 10%;
 float: left;
-padding: 25 25 5 25 ;
+padding: 10 10 5 25;
 }
 
 .socialmedia {
