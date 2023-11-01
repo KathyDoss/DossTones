@@ -72,15 +72,6 @@ a:hover {
   background-color: gray;
 }
 
-
-.playerpage {
-  display: inline-block;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 20px;
-}
-
-
     
 .center {
   display: block;
@@ -91,24 +82,23 @@ a:hover {
 }
 
 .playertxt {
-  padding: 5px;
   font-size: 1.3em;
   font-color: black;
-  margin-right: 10%;
- }
+  }
 
-.leftcolumn {
-  float: left;
-  height: auto;
-  width: 48vw;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
+ 
 .playerimg {
 height:300;
 width:200;
 margins-left: 20%;
+float: left;
+padding: 25 25 5 25 ;
+}
+
+.bandimg {
+height:300;
+ 
+margins-left: 10%;
 float: left;
 padding: 25 25 5 25 ;
 }
