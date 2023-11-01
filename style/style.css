@@ -73,32 +73,44 @@ a:hover {
 }
 
 
+.playerpage {
+  display: inline-block;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+
+    
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding-bottom:5px;
-  }
+}
 
 .playertxt {
-  font-size: 1.2em;
+  padding: 5px;
+  font-size: 1.3em;
   font-color: black;
-  }
+  margin-right: 10%;
+ }
 
 .leftcolumn {
   float: left;
   height: auto;
   width: 48vw;
-  padding: 10 10 10 10;
-  }
-
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
 .playerimg {
 height:300;
 width:200;
-margins-left: 10%;
+margins-left: 20%;
 float: left;
-padding: 10 10 5 25;
+padding: 25 25 5 25 ;
 }
 
 .socialmedia {
