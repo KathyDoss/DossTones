@@ -8,9 +8,9 @@ body {
    
   
 
-#logo {
-  width:30%
-  aspect-ratio:3/1;
+#logo{
+  width: 236px;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,23 +21,22 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
- /width: 30%;
-   
 }
 
   
   .ribbon{
-  background-color: #f00000;
+  background-color: black;
   border-style: solid;
-  border-color: black;
-  border-width; 15px;
+  border-color: #f00000;
+  border-width: thick;
 }
  
 #dropbtn {
-  background-color: #f00000;
-  padding: 10px 45px 10px 2px;
-  font-size: 16px;
+  background-color: black;
+  padding: 10px 45px 10px 10px;
+  font-size: 18px;
   font-weight: bold;
+  color: red;
   border: none;
   cursor: pointer;
 }
@@ -106,35 +105,32 @@ display: block;
 background-color: transparent;
 margin-left: auto;
 margin-right:auto;
-width: 15%;
+width: 100px;
+max-width: 50%;
 padding: 5 0 5 0;
 }
 
-   
+ 
+ 
 #bandimg {
-            float: left; /* Float the image to the left */
-            min-width: 50%;
+            width: 100%;
+			border: 5px solid black;
 			height: auto;
-			padding-right: 10px;
 			max-width: 100%;
-        }
+	     }
+		 
 #playerimg {
 	        float: left; /* Float the image to the left */
             margin-right: 10px; /* Add some margin to create space between image and text */
 			margin-left: 20%;
 			margin-top: 10px;
 			width: 200px;
-			height: auto;ma
-            }
+			height: auto;
+            border: 5px solid black;      
+			}
 
      @media (max-width: 575px) {
-            #bandimg {
-                float: none; /* Remove float on smaller screens */
-                margin-right: 0; /* Reset margin */
-                margin-left: 0; /* Reset margin */
-                display: block;  /*Make the image a block element to take full width */
-				max-width: 100%; 
-			          }
+
 			#playerimg {
                 float: none; /* Remove float on smaller screens */
                 margin-left: auto; /* Reset margin */
@@ -142,7 +138,8 @@ padding: 5 0 5 0;
                 display: blocK; /* Make the image a block element to take full width */
 				max-width: 100%;
             } 
-   }
+	 }
+   
     
  
 
