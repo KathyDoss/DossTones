@@ -3,7 +3,7 @@
 body {
   background-color: #ffffff;
   font-family: Arial, Helve5tica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
    }
    
   
@@ -88,12 +88,6 @@ a:hover {
   background-color: gray;
 }
 
- 
-.playertxt {
-   font-color: black;
-   margin-left: 10px;
-    }
-
 #small-player {
 width:160px;
 height: 25px;
@@ -118,10 +112,9 @@ padding: 5 0 5 0;
 			height: auto;
 			max-width: 100%;
 	     }
-		 
+/*		 
 #playerimg {
-	        float: left; /* Float the image to the left */
-            margin-right: 10px; /* Add some margin to create space between image and text */
+            margin-right: 10px; 
 			margin-left: 20%;
 			margin-top: 10px;
 			width: 200px;
@@ -132,13 +125,41 @@ padding: 5 0 5 0;
      @media (max-width: 575px) {
 
 			#playerimg {
-                float: none; /* Remove float on smaller screens */
-                margin-left: auto; /* Reset margin */
+                float: none; 
+                margin-left: auto; 
 				margin-right: auto;
-                display: blocK; /* Make the image a block element to take full width */
+                display: blocK; 
 				max-width: 100%;
             } 
-	 }
+	 }*/
+	 
+.flex-center {
+  display: flex;  /* Arrange images side by side */
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center img { 
+ height:auto;
+/* padding: 5px;*/
+ max-width: 100%; /* Prevent images from exceeding container width */
+ border: 5px solid black; 
+ margin: 10px; 
+	}
+
+/* used on home page*/
+.flex-center p {
+	padding-left: 10px;
+/*    border: solid;
+    border-width: 10px;
+    border-color: #306519;*/
+	color:black;
+	font-weight: bold;
+    width: 400px;
+	max-width: 100%;
+}
+	 .
    
     
  
