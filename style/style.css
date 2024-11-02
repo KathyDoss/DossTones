@@ -12,7 +12,7 @@ body {
  } 
  
  .responsive {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -22,8 +22,18 @@ body {
 	 text-decoration:none;
 	 font-size: 18px;
      font-weight: bold;
- /*    padding-left: 10px;
-	 padding-right: 10px;*/
+ }
+ a:hover {
+  background-color: gray;
+}
+
+ 
+ #bios {
+	 text-align: center;
+	 color: black;
+	 background-color: white;
+	 font-size: 18px;
+     font-weight: bold;
  }
 
 
@@ -43,6 +53,13 @@ body {
 			max-width: 90%;
 	     }
 		 
+#playerimg {
+	width:199px;
+	height: auto;
+	max-width: 90%;
+}
+
+		 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -50,16 +67,22 @@ body {
   justify-content: center;
 }
 
-.flex-container > .info {
+.flex-container > .bandinfo {
   max-width: 70%;
-  padding:10px;
-
 }
+  
+ .flex-container > .playerpic {
+	 max-width: 35%;
+ }
+ .flex-container > .playertxt {
+	max-width: 35%; 
+ }
+
 
 .flex-container > .menu {
-	width: 20%;
-    min-width: 20%;
+    max-width: 24%;
 	background-color: black;
+	padding: 10px;
 }
 
 
