@@ -76,7 +76,9 @@ body {
   
  .flex-container > .playerinfo {
 	max-width: 70%;
-    font-weight: bold;	 
+    font-weight: bold;	
+    font-size: 20px;
+    padding-right:5px;	
  }
 
 
