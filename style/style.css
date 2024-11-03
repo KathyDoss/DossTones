@@ -51,12 +51,15 @@ body {
             width: 900px;
 			height:auto;
 			max-width: 90%;
+			font-weight:bold;
 	     }
 		 
 #playerimg {
 	width:199px;
 	height: auto;
 	max-width: 90%;
+	float:left;
+	padding: 10px;
 }
 
 		 
@@ -71,11 +74,9 @@ body {
   max-width: 70%;
 }
   
- .flex-container > .playerpic {
-	 max-width: 35%;
- }
- .flex-container > .playertxt {
-	max-width: 35%; 
+ .flex-container > .playerinfo {
+	max-width: 70%;
+    font-weight: bold;	 
  }
 
 
@@ -83,6 +84,8 @@ body {
     max-width: 24%;
 	background-color: black;
 	padding: 10px;
+	border-style:solid;
+	border-color:red;
 }
 
 
