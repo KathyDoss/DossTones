@@ -48,11 +48,13 @@ body {
 }
   
 #bandimg {
-            width: 900px;
+            width: 500Px;
 			height:auto;
 			max-width: 90%;
-			font-weight:bold;
-	     }
+			float:left;
+			padding: 10px;
+	        font-weight:bold;
+		 }
 		 
 #playerimg {
 	width:199px;
