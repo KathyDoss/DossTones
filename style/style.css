@@ -84,6 +84,7 @@ body {
     max-width: 24%;
 	background-color: black;
 	border-style:solid;
+	font-color: white;
 	a:hover {background-color: gray;}
 }
 
