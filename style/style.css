@@ -81,10 +81,11 @@ body {
  }
 
 .flex-container > .menu {
-    max-width: 24%;
+    max-width: 26%;
 	background-color: black;
 	border-style:solid;
 	font-color: white;
+	font-size: 20px;
 	a:hover {background-color: gray;}
 }
 
